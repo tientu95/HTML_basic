@@ -1,0 +1,39 @@
+I. Đơn vị
+1. Tuyệt đối
+    px
+2. Tương đối
+    %: phụ thuộc vào thẻ chứa
+    rem: phụ thuộc vào thẻ html
+    em: phụ thuộc vào thẻ cha gần nhất có cùng thuộc tính
+    vw: viewport width theo chiều rộng  trình duyệt
+    vh: viewport height theo chiều cao  trình duyệt
+/* độ ưu tiên
+1. Internal, External ưu tiên cái mới nhất
+2. tag < class < id < Inline 
+3. Equal specificity : Khi gọi giống nahu thì ưu tiên cái mới nhất và cộng dồn
+4. Universal selector and inherited: phổ cập cho toàn bộ dùng *, kế thừa  */
+/*cách gọi ID & Class
+ID: #
+Class:. 
+ */
+ /* !important : khi thêm vào thì mạnh hơn Inline
+ VD: .second{
+      color: red; !important
+ }
+ */
+ /*
+ I.CSS Variable
+ :root{
+  --text-color: blue;
+}
+h1{
+  color: var(--text-color);
+}
+h2{
+  
+  --my-color: red; chỉ dùng trong cặp này
+  color: var(--my-color);
+}
+ 
+
+  */
